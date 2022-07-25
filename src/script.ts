@@ -113,4 +113,6 @@ let f: object;
 f = [1, 2, 3];
 // object end
 
+
+
 // Explicit & Union Types End
