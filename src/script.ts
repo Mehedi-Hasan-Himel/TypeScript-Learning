@@ -82,5 +82,35 @@ a = `hello`;
 b = 5;
 // variable End
 
+// Array Start
+let c: (string | number)[] = [];
+let d: string | number;
+
+c.push(`himel`);
+c.push(143);
+
+d = `Mehedi`;
+d = 143;
+console.log(c);
+console.log(d);
+
+// Array End
+
+// object start
+let e: {
+  name: string;
+  number: number;
+  adult: boolean;
+};
+
+e = {
+  name: `Mehedi Hasan Himel`,
+  number: +8801969038472,
+  adult: true,
+};
+
+let f: object;
+f = [1, 2, 3];
+// object end
 
 // Explicit & Union Types End

@@ -70,4 +70,24 @@ b = `hi`;
 a = `hello`;
 b = 5;
 // variable End
+// Array Start
+let c = [];
+let d;
+c.push(`himel`);
+c.push(143);
+d = `Mehedi`;
+d = 143;
+console.log(c);
+console.log(d);
+// Array End
+// object start
+let e;
+e = {
+    name: `Mehedi Hasan Himel`,
+    number: +8801969038472,
+    adult: true,
+};
+let f;
+f = [1, 2, 3];
+// object end
 // Explicit & Union Types End
