@@ -67,3 +67,20 @@ let person1 = {
 console.log(person1);
 // object end
 
+// Explicit & Union Types Start
+
+// variable Start
+let a: string;
+let b: number;
+
+// wrong code.
+a = 5;
+b = `hi`;
+
+// right code.
+a = `hello`;
+b = 5;
+// variable End
+
+
+// Explicit & Union Types End
