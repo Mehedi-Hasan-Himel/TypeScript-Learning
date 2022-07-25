@@ -1,3 +1,5 @@
+// Union Type Data
+
 let myId: string | number | boolean;
 myId = `111`;
 myId = 111;
