@@ -51,3 +51,11 @@ let mixed = [`apple`, 3, true];
 mixed.push();
 console.log(mixed);
 // Array End
+// object start
+let person1 = {
+    name: `Mehedi Hasan Himel`,
+    age: 35,
+    isCaption: true,
+};
+console.log(person1);
+// object end
