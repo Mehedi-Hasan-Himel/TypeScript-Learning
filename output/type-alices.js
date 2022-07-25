@@ -1,4 +1,5 @@
 "use strict";
+// TypeScript: Type Aliases
 const userDetails = (id, user) => {
     console.log(`User id id ${id}, name is ${user.name} and age is ${user.age}`);
 };
