@@ -14,3 +14,6 @@ user2 = {
 };
 users.push(user2);
 console.log(users);
+for (const key in users) {
+    console.log(users[key]);
+}
