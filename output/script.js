@@ -21,10 +21,10 @@ console.log(playerName);
 // Variable End
 // Function Start
 // wrong code
-function multiply1(a, b) {
-    return a * b;
-}
-console.log(multiply1(3, 4));
+// function multiply1(a, b) {
+// return a * b;
+// }
+// console.log(multiply1(3, 4));
 // right code
 function multiply(a, b) {
     return a * b;
@@ -34,7 +34,7 @@ console.log(multiply(3, 4));
 // Array Start
 // wrong code
 let fruits = [`apple`, `banana`, `orange`];
-fruits.push(3);
+// fruits.push(3);
 console.log(fruits);
 // right code
 let fruits1 = [`apple`, `banana`, `orange`];
@@ -42,9 +42,9 @@ fruits1.push(`mango`);
 console.log(fruits1);
 // wrong code
 let mixed1 = [`apple`, 3, true];
-mixed1.push({
-    name: `Mehedi Hasan Himel`,
-});
+// mixed1.push({
+// name: `Mehedi Hasan Himel`,
+// });
 console.log(mixed1);
 // right code
 let mixed = [`apple`, 3, true];
@@ -64,8 +64,8 @@ console.log(person1);
 let a;
 let b;
 // wrong code.
-a = 5;
-b = `hi`;
+// a = 5;
+// b = `hi`;
 // right code.
 a = `hello`;
 b = 5;

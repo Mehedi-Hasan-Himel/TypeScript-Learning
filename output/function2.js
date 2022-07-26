@@ -1,3 +1,2 @@
 "use strict";
-let userDetails;
-userDetails = (id, user) => { };
+let userDetails1;
