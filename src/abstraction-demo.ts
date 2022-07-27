@@ -1,5 +1,5 @@
 // import {isConstructorDeclaration} from `typescript`
-class User {
+abstract class User1 {
   // properties, methods, constructor
   myName: string;
   age: number;
@@ -7,12 +7,10 @@ class User {
     this.myName = myName;
     this.age = age;
   }
-  display(): void {
-    console.log(`myName: ${this.myName}, age: ${this.age}`);
-  }
+  abstract display(): void;
 }
 
-class Student extends User {
+class Students extends User1 {
   studentId: number;
   constructor(myName: string, age: number, studentId: number) {
     super(myName, age);
@@ -25,11 +23,5 @@ class Student extends User {
   }
 }
 
-let student1 = new Student(`Himel`, 22, 143);
+let student2 = new Student(`Himel`, 22, 143);
 student1.display();
-// class object.
-// user1: name: Mehedi Hasan Himel, age: 22
-// user2: name: Monuiruzzaman Monir, age: 23
-
-// let user_a = new User(`Mehedi Hasan Himel`, 22);
-// user_a.display();
