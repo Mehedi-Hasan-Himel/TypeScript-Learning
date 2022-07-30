@@ -6,7 +6,9 @@ class User2 {
         this.age = age;
     }
     display() {
-        console.log(`myName: ${this.myName}, age: ${this.age},id:${this.studentId}`);
+        console.log(
+        // `myName: ${this.myName}, age: ${this.age},id:${this.studentId}`
+        );
     }
 }
 class Students1 extends User2 {
@@ -22,4 +24,4 @@ let student3 = new Students1(`Himel`, 22, 143);
 // student3.display();
 let user6 = new User2(`Himel`, 22);
 user6.myName = `kuhok `;
-user6.display() = `kuhok `;
+// user6.display() = `kuhok `;

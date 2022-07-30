@@ -9,7 +9,7 @@ class User2 {
   }
   display(): void {
     console.log(
-      `myName: ${this.myName}, age: ${this.age},id:${this.studentId}`
+      // `myName: ${this.myName}, age: ${this.age},id:${this.studentId}`
     );
   }
 }
@@ -32,4 +32,4 @@ let student3 = new Students1(`Himel`, 22, 143);
 
 let user6 = new User2(`Himel`, 22);
 user6.myName = `kuhok `;
-user6.display() = `kuhok `;
+// user6.display() = `kuhok `;
