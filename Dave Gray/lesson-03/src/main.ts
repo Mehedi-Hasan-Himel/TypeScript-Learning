@@ -68,3 +68,17 @@ const greetGuitarist = (guitarist: Guitarist) => {
 };
 
 console.log(greetGuitarist(jp));
+
+// Objext End
+
+// Enum Start
+
+enum Grade{
+   U,
+   D,
+   C,
+   B,
+   A,
+}
+
+console.log(Grade.C);
